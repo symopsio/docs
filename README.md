@@ -1,3 +1,9 @@
+---
+description: >-
+  Sym empowers engineers to create the perfect security and privacy workflows
+  for their teams.
+---
+
 # Sym Docs
 
 ## Sym CLI
