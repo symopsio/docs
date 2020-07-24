@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Sym SDK](README.md)
+* [Sym Docs](README.md)
 
 ## CLI
 
@@ -8,6 +8,7 @@
 
 ## SDK
 
+* [Sym SDK](sdk/sym-sdk.md)
 * [Infra Access Demo](sdk/infra-access-demo/README.md)
   * [Terraform Provider](sdk/infra-access-demo/terraform-provider.md)
   * [Python SDK](sdk/infra-access-demo/python-sdk.md)
