@@ -4,7 +4,8 @@
 
 ## CLI
 
-* [Sym CLI](cli/sym-cli.md)
+* [Sym CLI](cli/sym-cli/README.md)
+  * [SAML Providers](cli/sym-cli/saml-providers.md)
 
 ## SDK
 
