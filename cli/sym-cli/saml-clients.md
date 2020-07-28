@@ -2,7 +2,7 @@
 description: The Sym CLI supports both aws-okta and saml2aws.
 ---
 
-# SAML Providers
+# SAML Clients
 
 When Sym is connected to your IDP \(such as Okta\), escalated access to resources is often granted by temporarily adding you to a group that has delegated permission to assume an IAM Role. 
 
