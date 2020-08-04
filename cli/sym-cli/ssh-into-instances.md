@@ -12,7 +12,7 @@ ip-172-31-78-22
 ubuntu@ip-172-31-78-22:~$
 ```
 
-{% hint style="info" %}
+{% hint style="success" %}
 Remember,  you can also use the `SYM_RESOURCE` environment variable to make the `ssh` command's interface more familiar:
 
 ```text

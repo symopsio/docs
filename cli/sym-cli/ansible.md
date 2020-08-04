@@ -33,9 +33,29 @@ ok: [34.230.78.150]
 34.230.78.151: ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ```
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Make sure to omit `AWS_PROFILE` if you normally include it.
 {% endhint %}
 
-You can also 
+You can also run `ansible` commands in a similar way:
+
+```bash
+$ SYM_RESOURCE=staging sym ansible all -m ping -vvv
+34.230.78.151 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "invocation": {
+        "module_args": {
+            "data": "pong"
+        }
+    },
+    "ping": "pong"
+}
+```
+
+{% hint style="success" %}
+You can use `sym defaults:set resource staging` to avoid having to include `SYM_RESOURCE=staging` in every command!
+{% endhint %}
 

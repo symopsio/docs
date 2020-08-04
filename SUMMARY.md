@@ -9,6 +9,7 @@
   * [Ansible](cli/sym-cli/ansible.md)
   * [Setting a Default Resource](cli/sym-cli/setting-a-default-resource.md)
   * [SAML Clients](cli/sym-cli/saml-clients.md)
+  * [SSH Tunnel](cli/sym-cli/ssh-tunnel.md)
 
 ## SDK
 
