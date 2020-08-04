@@ -16,6 +16,7 @@ Invoking `ansible-playbook` with `sym` looks very similar. You simply have to sp
 
 ```bash
 $ SYM_RESOURCE=staging sym ansible-playbook nginx.yml
+
 ______________________
 < PLAY [Install nginx] >
  ----------------------
@@ -41,6 +42,7 @@ You can also run `ansible` commands in a similar way:
 
 ```bash
 $ SYM_RESOURCE=staging sym ansible all -m ping -vvv
+
 34.230.78.151 | SUCCESS => {
     "ansible_facts": {
         "discovered_interpreter_python": "/usr/bin/python3"
