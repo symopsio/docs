@@ -48,7 +48,7 @@ If your install succeeded, you should now have `sym` in your path.
 
 ```bash
 $ sym version
-0.0.9
+0.0.13
 ```
 
 ## Setup
@@ -58,6 +58,7 @@ Before you can use `sym`, you'll need to let us know who you are!
 ```bash
 $ sym login
 Org: your-org-slug-here
+Email: you@org.com
 ```
 
 {% hint style="info" %}
@@ -83,17 +84,25 @@ The Sym CLI can be used _after_ you've been approved for a particular resource. 
 
 Once approved for a given resource, you can execute commands with temporary elevated credentials for that resource.
 
-For example, after successfully requesting access to the `prod` resource, you can run `ansible`commands against your production environment.
+For example, after successfully requesting access to the `prod` resource, you can run `aws-cli`commands against your production environment.
 
 ```bash
-$ sym exec prod -- ansible all -m ping
-PLAY [Ping]
-...
-ok
+$ sym exec prod -- aws ec2 describe-instances
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                { ... }
+            ],
+            ...
+        }
+    ]
+}
 ```
 
 {% hint style="info" %}
-`sym exec` works very similarly to `aws-okta exec` or `aws-vault exec`
+`sym exec`works very similarly to `aws-okta exec` or `aws-vault exec`
 {% endhint %}
 
 If you need a copy of the credentials for the elevated role, you can simply access the environment variables.
@@ -108,15 +117,11 @@ AWS_SECURITY_TOKEN=%%%
 AWS_SESSION_EXPIRATION=2020-04-16T11:16:27Z
 ```
 
-## SSH Into Instances
+{% hint style="info" %}
+You can also use the `SYM_RESOURCE` environment variable to specify the resource, which makes commands like `exec` more ergonomic:
 
-The `sym` CLI also has native support for using your escalated privileges to SSH directly into an instance, without any additional authentication. All you need is the Instance ID \(e.g. `i-123456789ascd`\).
-
-```bash
-$ sym ssh prod --target i-123456789ascd
-Starting session with SessionId: xxx
-
-$ hostname
-ip-10-10-1-241
+```text
+$ SYM_RESOURCE=prod sym exec env
 ```
+{% endhint %}
 

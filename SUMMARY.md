@@ -5,6 +5,9 @@
 ## CLI
 
 * [Sym CLI](cli/sym-cli/README.md)
+  * [SSH Into Instances](cli/sym-cli/ssh-into-instances.md)
+  * [Ansible](cli/sym-cli/ansible.md)
+  * [Setting a Default Resource](cli/sym-cli/setting-a-default-resource.md)
   * [SAML Clients](cli/sym-cli/saml-clients.md)
 
 ## SDK
