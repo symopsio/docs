@@ -4,7 +4,7 @@ description: Protect a sensitive endpoint in Django with Sym.
 
 # Django
 
-The Sym Access template can easily be used to put a Slack-based peer approval workflow in front of an arbitrary view in Django. 
+The Sym Access template can easily be used to put a Slack-based peer approval workflow in front of an arbitrary view in Django. It can be integrated and set up in only a few minutes!
 
 ## Integration
 
@@ -37,7 +37,7 @@ To get going, all you have to do is use our Terraform provider to provision a `f
 {% tab title="main.tf" %}
 ```text
 provider "sym" {
-  org = "klaviyo"
+  org = "widgets-inc"
 }
 
 resource "sym_flow" "impersonation_flow" {
