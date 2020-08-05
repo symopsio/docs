@@ -21,7 +21,7 @@ resource "sym_form" "request_fields" {
 resource "sym_strategies" "escalation_strategies" {
   lambda_strategy {
     id = "my-lambda"
-    label = User Impersonation"
+    label = "User Impersonation"
     code = file("my_lambda_code.js")
   }
 }
