@@ -37,6 +37,8 @@ This flow can be implemented by the user using Sym's API, or you can use one of 
 
 When a user tries to visit the action, they'll be met with a Sym-rendered screen which walks them through getting approval, without you having to change your endpoint logic at all.
 
+{% tabs %}
+{% tab title="Rails" %}
 ```ruby
 class ImpersonationController < ApplicationController
  include Sym::Impersonate::Concern
@@ -48,6 +50,19 @@ class ImpersonationController < ApplicationController
  end
 end
 ```
+{% endtab %}
+
+{% tab title="Django" %}
+```python
+from sym.django import require_approval
+
+@require_approval(flow="impersonate")
+def impersonation_demo(request):
+  # app-specific impersonation logic here
+  pass
+```
+{% endtab %}
+{% endtabs %}
 
 ## Demo
 
