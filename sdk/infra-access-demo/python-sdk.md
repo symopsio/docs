@@ -63,7 +63,7 @@ The Data Security team is defined as an Okta group, and Sym knows how to figure 
 {% endhint %}
 
 ```python
-from sym import okta, slack
+from sym.integrations import okta, slack
 
 @reducer # Reducers are mandatory, and provide dynamic config values
 def get_approver(request):

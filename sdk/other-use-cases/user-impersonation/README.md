@@ -2,7 +2,7 @@
 
 A common use case of the Sym Access template is to wrap a Slack-based peer-approval flow around application-level user impersonation, or "god mode". For an overview of the Sym SDK, please first read through the SDK Demo.
 
-{% page-ref page="../infra-access-demo/" %}
+{% page-ref page="../../infra-access-demo/" %}
 
 ## Lambda Strategy
 

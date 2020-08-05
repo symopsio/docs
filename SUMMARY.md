@@ -19,6 +19,7 @@
   * [Python SDK](sdk/infra-access-demo/python-sdk.md)
   * [All Together](sdk/infra-access-demo/all-together.md)
 * [Other Use Cases](sdk/other-use-cases/README.md)
-  * [User Impersonation](sdk/other-use-cases/user-impersonation.md)
   * [Gated Deploys](sdk/other-use-cases/gated-deploys.md)
+  * [User Impersonation](sdk/other-use-cases/user-impersonation/README.md)
+    * [Django](sdk/other-use-cases/user-impersonation/django.md)
 
