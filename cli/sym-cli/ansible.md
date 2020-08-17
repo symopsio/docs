@@ -34,8 +34,12 @@ ok: [34.230.78.150]
 34.230.78.151: ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ```
 
+{% hint style="info" %}
+You can also specify a `SYM_ANSIBLE_RESOURCE` to have the local Ansible command assume a different Sym Resource Role than the one used for the SSH connection.
+{% endhint %}
+
 {% hint style="warning" %}
-Make sure to omit `AWS_PROFILE` if you normally include it.
+If you include an`AWS_PROFILE` , Ansible will assume that IAM Role instead of the Sym Resource Role when executing locally.
 {% endhint %}
 
 You can also run `ansible` commands in a similar way:
