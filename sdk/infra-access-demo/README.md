@@ -6,7 +6,7 @@ description: This is an example of an ephemeral infrastructure access workflow.
 
 Welcome to the [Sym](https://symops.com/) SDK Demo. We'll be exploring an infrastructure access use case, but the Sym platform supports many more access workflows.
 
-This is an example of the ephemeral infrastructure access workflow described in the [Sym walkthrough](https://docs.symops.io/), implemented using our Terraform provider and Python SDK.
+This is an example of the ephemeral infrastructure access workflow implemented using our Terraform provider and Python SDK.
 
 ## Video
 
