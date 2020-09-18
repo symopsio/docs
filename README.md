@@ -6,17 +6,19 @@ description: >-
 
 # Sym Docs
 
-## Sym CLI
+## Hello World
 
-If you're an engineer whose organization is using Sym and you're looking for docs on how to access resources, you probably want our CLI docs.
+If you're new to Sym, learn by building your first Workflow. We'll build a basic Access Workflow, show the perspective of the Workflow's consumers, and then make it more powerful.
 
-{% page-ref page="cli/sym-cli/" %}
+{% page-ref page="hello-world/build-your-first-sym-workflow.md" %}
 
-## Sym SDK
+## Sym Concepts
 
-If your job is to implement Sym at your organization, the SDK docs are where you want to head!
+Learn about the concepts Sym uses from Templates to the functionality of our Python SDK. 
 
-{% page-ref page="sdk/sym-sdk.md" %}
+{% page-ref page="sym-concepts/what-is-a-workflow.md" %}
+
+
 
 
 
