@@ -2,13 +2,6 @@
 
 * [Sym Docs](README.md)
 
-## Hello World
-
-* [Build Your First Sym Workflow](hello-world/build-your-first-sym-workflow.md)
-* [Using the Workflow](hello-world/using-the-workflow.md)
-* [What You Didn't Write](hello-world/what-you-didnt-write.md)
-* [Advanced Access](hello-world/advanced-access.md)
-
 ## Sym Concepts
 
 * [What is a Workflow?](sym-concepts/what-is-a-workflow.md)
@@ -19,6 +12,13 @@
   * [Hooks](sym-concepts/python-sdk/hooks.md)
   * [Reducers](sym-concepts/python-sdk/reducers.md)
   * [Actions](sym-concepts/python-sdk/actions.md)
+
+## Hello World
+
+* [Build Your First Sym Workflow](hello-world/build-your-first-sym-workflow.md)
+* [Using the Workflow](hello-world/using-the-workflow.md)
+* [What You Didn't Write](hello-world/what-you-didnt-write.md)
+* [Advanced Access](hello-world/advanced-access.md)
 
 ## Guides
 
