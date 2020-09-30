@@ -4,13 +4,16 @@ description: Deploy an Access Workflow in only a few minutes
 
 # Build Your First Sym Workflow
 
-You're done waiting for that access request to go through — customers are waiting for a fix and you're waiting for an access requesst JIRA ticket to be answered. Or, you noticed that everyone on your team has access to sensitive customer data _all the time_. You're worried about an attack, so you decide to fix the problem for good.
+You're done waiting for that access request to go through — customers are waiting for a fix and you're waiting for an access request JIRA ticket to be answered. Or, you noticed that everyone on your team has access to sensitive customer data _all the time_. You're worried about an attack, so you decide to fix the problem for good.
 
 {% hint style="info" %}
-Goal: configure a Workflow for granting temporary data and infrastructure access with approval from your teammates through Slack
+Goal: configure a Workflow for granting temporary access to staging and production S3 buckets. Requests will be initiated and then peer-approved in Slack. The requester will automatically be granted the appropriate IAM role.
 {% endhint %}
 
-The Sym [Access Template](../sym-concepts/templates/access-template.md) is perfect for this job and can get you set up with a few lines of [Terraform](https://www.terraform.io/) and Python. Terraform is a configuration language that allows you to provision Sym Workflows and other infrastructure.
+![](../.gitbook/assets/image%20%282%29.png)
+
+  
+The Sym [Access Template](../sym-concepts/templates/access-template.md) is perfect for this job and can get you set up with a few lines of [Terraform](https://www.terraform.io/) and Python. Terraform is a configuration language that allows you to provision Sym Workflows and other infrastructure. Your organization doesn't have to already use Terraform to start using Sym!
 
 ## Provision the Workflow and Tie In Sensitive Resources
 
