@@ -2,14 +2,22 @@
 
 * [Sym Docs](README.md)
 
-## CLI
+## Sym CLI <a id="cli"></a>
 
-* [Sym CLI](cli/sym-cli/README.md)
-  * [SSH Into Instances](cli/sym-cli/ssh-into-instances.md)
-  * [Ansible](cli/sym-cli/ansible.md)
-  * [Setting a Default Resource](cli/sym-cli/setting-a-default-resource.md)
-  * [SAML Clients](cli/sym-cli/saml-clients.md)
-  * [SSH Tunnel](cli/sym-cli/ssh-tunnel.md)
+* [Setup](cli/setup/README.md)
+  * [Install](cli/setup/install/README.md)
+    * [Upgrade](cli/setup/install/upgrade.md)
+  * [Login](cli/setup/login.md)
+  * [List Resources](cli/setup/list-resources.md)
+  * [Request Access](cli/setup/request-access.md)
+  * [Optional Configuration](cli/setup/optional-configuration/README.md)
+    * [Setting a Default Resource](cli/setup/optional-configuration/setting-a-default-resource.md)
+    * [Configuring SAML Clients](cli/setup/optional-configuration/saml-clients.md)
+* [User Guides](cli/user-guides/README.md)
+  * [SSH Into Instances](cli/user-guides/ssh-into-instances.md)
+  * [Ansible](cli/user-guides/ansible.md)
+  * [Run Privileged Commands](cli/user-guides/run-privileged-commands.md)
+  * [SSH Tunnel](cli/user-guides/ssh-tunnel.md)
 
 ## SDK
 

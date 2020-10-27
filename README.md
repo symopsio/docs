@@ -10,8 +10,6 @@ description: >-
 
 If you're an engineer whose organization is using Sym and you're looking for docs on how to access resources, you probably want our CLI docs.
 
-{% page-ref page="cli/sym-cli/" %}
-
 ## Sym SDK
 
 If your job is to implement Sym at your organization, the SDK docs are where you want to head!
