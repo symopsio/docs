@@ -18,7 +18,8 @@ This is configurable by passing the `--saml-client` flag to `sym`, which default
 | :--- | :--- |
 | `auto` | Default to the `saml2aws` client, fallback to `aws-okta`. |
 | `aws-okta` | Use the `aws-okta` client unconditionally. |
-| `saml2aws` | Use the `saml2aws` client unconditionally |
+| `saml2aws` | Use the `saml2aws` client unconditionally. |
+| `aws-profile` | Use predefined named AWS profiles unconditionally. |
 
 A common case for explicitly specifying a value is if both utilities are installed, but only one is set up.
 
