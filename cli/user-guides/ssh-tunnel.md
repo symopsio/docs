@@ -12,12 +12,12 @@ While most applications can use temporary credentials generated from your escala
 
 1. Make sure you've [installed](../setup/install/) Sym and [logged in](../setup/login.md). For this guide, we'll assume you see a Sym resource called `RESOURCE` when you [list resources](../setup/list-resources.md).
 2. [Request access](../setup/request-access.md) to the `RESOURCE` resource and wait for it to be approved.
-3. Use the `sym exec` command:
+3. Use the `sym ssh` command:
 
 To use an application that connects over SSH with Sym, simply ensure the following arguments are passed to the `ssh` binary on connection \(how to do this varies from application to application\):
 
 ```bash
--o ProxyCommand="sh -c 'sym ssh-session-with-key RESOURCE --host %h --port %p'" -o StrictHostKeyChecking=no
+-o ProxyCommand="sh -c 'sym ssh-session RESOURCE --host %h --port %p'" -o StrictHostKeyChecking=no
 ```
 
 {% hint style="info" %}
