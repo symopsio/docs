@@ -49,7 +49,7 @@ AWS_SESSION_EXPIRATION=2020-04-16T11:16:27Z
 You can also use the `SYM_RESOURCE` environment variable to specify the resource, which makes commands like `exec` more ergonomic:
 
 ```text
-$ SYM_RESOURCE=prod sym exec env
+SYM_RESOURCE=prod sym exec env
 ```
 {% endhint %}
 

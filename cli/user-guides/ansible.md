@@ -17,7 +17,7 @@ You can use the Sym CLI to run `ansible` or `ansible-playbook` commands with you
 A common invocation of `ansible-playbook` goes something like this:
 
 ```bash
-$ AWS_PROFILE=staging ansible-playbook nginx.yml
+AWS_PROFILE=staging ansible-playbook nginx.yml
 ```
 
 Invoking `ansible-playbook` with `sym` looks very similar. You simply have to specify a `SYM_RESOURCE` environment variable, and prefix `ansible-playbook` with `sym`:

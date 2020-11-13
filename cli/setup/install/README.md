@@ -7,7 +7,7 @@ description: Initial install of Sym CLI
 Installing the `sym` CLI is as simple as running one command:
 
 ```bash
-$ curl https://install.symops.io/sym.sh | bash
+curl https://install.symops.io/sym.sh | bash
 ```
 
 {% hint style="info" %}
@@ -19,7 +19,7 @@ If the install script fails for any reason, we have a few alternatives.
 You can use [`pipx`](https://pipxproject.github.io/pipx/#install-pipx) to manually install the CLI \(you will need to first install `pipx` if you haven't already\).
 
 ```bash
-$ pipx install sym-cli
+pipx install sym-cli
 ```
 {% endtab %}
 
@@ -27,7 +27,7 @@ $ pipx install sym-cli
 You can use `pip` to install the CLI globally.
 
 ```bash
-$ pip install --user sym-cli
+pip install --user sym-cli
 ```
 {% endtab %}
 {% endtabs %}

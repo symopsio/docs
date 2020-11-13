@@ -28,7 +28,7 @@ ubuntu@ip-172-31-78-22:~$
 Remember,  you can also use the `SYM_RESOURCE` environment variable to make the `ssh` command's interface more familiar:
 
 ```text
-$ SYM_RESOURCE=prod sym ssh 34.231.78.150
+SYM_RESOURCE=prod sym ssh 34.231.78.150
 ```
 {% endhint %}
 

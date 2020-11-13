@@ -26,7 +26,7 @@ A common case for explicitly specifying a value is if both utilities are install
 For example, to list all EC2 instances in the `prod` environment using `aws-okta`, even if you have `saml2aws` installed, run the following:
 
 ```bash
-$ sym --saml-client=aws-okta exec prod -- aws ec2 describe-instances
+sym --saml-client=aws-okta exec prod -- aws ec2 describe-instances
 ```
 
 
