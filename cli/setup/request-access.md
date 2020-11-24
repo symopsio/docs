@@ -7,10 +7,6 @@ description: >-
 
 # Request Access
 
-## Overview
-
-![](../../.gitbook/assets/image%20%283%29.png)
-
 ## Walkthrough
 
 To request access to SSH into an instance in any environment, simply run the `/sym req` slack command. You'll be prompted for the environment, and why you need access. 
