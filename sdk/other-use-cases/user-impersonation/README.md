@@ -66,5 +66,5 @@ def impersonation_demo(request):
 
 ## Demo
 
-You can see this gem and workflow demoed [here](https://impersonation-demo.symops.io). The requests will go to the `#impersonations` channel of the [Sym Demo](https://symdemo.slack.com) Slack workspace, where they can be approved by anyone in the channel in realtime.
+You can see this gem and workflow demoed [here](https://impersonation-demo.symops.com/). The requests will go to the `#impersonations` channel of the [Sym Demo](https://symdemo.slack.com) Slack workspace, where they can be approved by anyone in the channel in realtime.
 
